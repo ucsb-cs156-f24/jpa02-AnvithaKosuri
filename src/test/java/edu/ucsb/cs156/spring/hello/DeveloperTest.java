@@ -26,12 +26,13 @@ public class DeveloperTest {
         // <https://bit.ly/cs156-f24-teams>
         assertEquals("Anvitha", Developer.getName());
     }
-
+    
+    @Test
     public void getGithubId_returns_correct_githubId() {
         
         // <https://bit.ly/cs156-f24-teams>
-        String id = "AnvithaKosuri"
-        assertEquals(id, Developer.getGithubId());
+       
+        assertEquals("AnvithaKosuri", Developer.getGithubId());
     }
     
     @Test
